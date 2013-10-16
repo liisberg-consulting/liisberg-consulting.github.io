@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Developers Manual : " />
+    <meta name="description" content="The Liisberg Consulting Development Process Description : " />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Developers Manual</title>
+    <title>The Liisberg Consulting Development Process Description</title>
   </head>
 
   <body>
@@ -18,7 +18,7 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/liisberg-consulting">View on GitHub</a>
 
-          <h1 id="project_title">Developers Manual</h1>
+          <h1 id="project_title">The Liisberg Consulting Development Process Description</h1>
           <h2 id="project_tagline"></h2>
 
         </header>
@@ -28,12 +28,7 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="developers-manual" class="anchor" href="#developers-manual"><span class="octicon octicon-link"></span></a>Developers manual</h1>
-
-<h2>
-<a name="philosophy" class="anchor" href="#philosophy"><span class="octicon octicon-link"></span></a>Philosophy</h2>
-
-<p>They way we work at Liisberg Consulting is heavily inspired from <a href="http://zachholman.com/talk/how-github-uses-github-to-build-github">The way the github team works</a>.</p>
+<a name="philosophy" class="anchor" href="#philosophy"><span class="octicon octicon-link"></span></a>Philosophy</h1>
 
 <h3>
 <a name="we-work-asynchronously" class="anchor" href="#we-work-asynchronously"><span class="octicon octicon-link"></span></a>We work asynchronously</h3>
@@ -53,7 +48,61 @@
 <ul>
 <li>no-one needs to be online at a specific time</li>
 <li>you can ignore pings and turn to the pinger later, staying in "the zone" if you happen to be there</li>
-</ul><h2>
+</ul><h1>
+<a name="the-scrum-board" class="anchor" href="#the-scrum-board"><span class="octicon octicon-link"></span></a>The Scrum Board</h1>
+
+<p>The scrum board is the center of the development process. Every feature, chore and bug lives here as stories. This means that <strong>If it's not on the scrum board, it does not exist.</strong></p>
+
+<p>We use pivotal tracker for scrum board (<a href="http://www.pivotaltracker.com">http://www.pivotaltracker.com</a>). As a customer, you will be invited to participate actively with defining stories, prioritizing them and accepting them when they are done. We are perfectly fine with defining stories ourselves, but the quality and effectivity of the process will improve if you, the customer, understands how you can participate to increase throughput and assure the correctness of stories.</p>
+
+<h3>
+<a name="different-roles-different-tasks-different-responsibilities" class="anchor" href="#different-roles-different-tasks-different-responsibilities"><span class="octicon octicon-link"></span></a>Different roles, different tasks, different responsibilities</h3>
+
+<p>Every project is unique and requires unique care. But there are a few guidelines customers can follow to make sure the development process is optimal. Here's the roles we usually meet:</p>
+
+<ul>
+<li>End user representative</li>
+<li>End customer representative (when we are a subcontractor)</li>
+<li>Customer responsible</li>
+<li>Customer developer</li>
+<li>Lead (Liisberg Consulting project lead)</li>
+<li>Developer (Liisberg Consulting developer)</li>
+</ul><p><em>End users</em> and <em>end customers</em> will sometimes want insight and influence into the work we do. This can be provided as a view-only access to the scrum board. It's only very seldom we allow anyone but the customer and internal developers access to define, prioritize and work with the stories in pivotal (but it does happen).</p>
+
+<p><em>The customer</em> on the other hand, is invited to participate, but is asked to pay attention to a few ironclad rules:</p>
+
+<ul>
+<li>You can define stories, but you need to always comply to the "As a ..., I should be able to ..." description style.</li>
+<li>You can prioritize stories (by dragging them to the backlog/current), but you must accept that sometimes developers need to prioritize dependencies first to be able to start your story.</li>
+<li>You CANNOT assign a specific developer og start a story. This is done by the developers themselves.</li>
+<li>You MUST rush to test and accept stories when they are delivered. Unless we agree on a different process, it is the responsibility of the customer to accept stories that are delivered. By the way, in most cases 'delivered' means that it is already released to the public, so it should be in your best interest to discover any bugs or similar.</li>
+</ul><p><em>The lead</em> and <em>developers</em> participate in the entire life-cycle. They may break down a big story to several smaller ones to better estimate the work that needs to be done. They may organize stories in epics and tag them. They may add stories, re-prioritize due to dependencies, start, finish and deliver stories.</p>
+
+<h3>
+<a name="the-life-cycle-of-a-user-story" class="anchor" href="#the-life-cycle-of-a-user-story"><span class="octicon octicon-link"></span></a>The life-cycle of a User Story</h3>
+
+<p>Here's a quick sketch of how the life-cycle of a story looks:
+<img src="http://content.screencast.com/users/jeppeliisberg/folders/Jing/media/f342f0c3-afb3-44e7-8760-4d4543af7228/00000226.png" alt="Story life-cycle"></p>
+
+<p>TBD: improve and explain the story life cycle.</p>
+
+<h3>
+<a name="a-note-on-discussions-and-team-communications" class="anchor" href="#a-note-on-discussions-and-team-communications"><span class="octicon octicon-link"></span></a>A note on discussions and team communications</h3>
+
+<p>Many people use e-mail as the primary way of communication. But e-mail is bad. Way too often, threads are broken, the body drifts from the subject (if a proper subject was there from the start) and either too many or too few are in on the 'cc' list.</p>
+
+<p>We prefer chat over e-mail. Our chat is used for short-lived discussions that lead to decisions and actions. Decisions is then documented elsewhere (eg. on the scrum board) and actions are taken by the relevant people. There's really not much more to it. Our developers should always be addressed via chat, not by e-mail.</p>
+
+<p>Discussions that are related to a specific story, bug or chore (task), should always be documented in the relevant story on the scrum board. Either by having that conversation right there in the story, or by copying or writing down any relevant information from the chat (or even e-mail) into the story. Having all relevant information regarding a specific story in the story itself is crucial for the ability of developers to focus and efficiently deliver the right product!</p>
+
+<h1>
+<a name="developers-manual" class="anchor" href="#developers-manual"><span class="octicon octicon-link"></span></a>Developers manual</h1>
+
+<p>If you are not a developer, do not read further.</p>
+
+<p>They way we work at Liisberg Consulting is heavily inspired from <a href="http://zachholman.com/talk/how-github-uses-github-to-build-github">The way the github team works</a>.</p>
+
+<h2>
 <a name="commit-guidelines" class="anchor" href="#commit-guidelines"><span class="octicon octicon-link"></span></a>Commit guidelines</h2>
 
 <h3>
