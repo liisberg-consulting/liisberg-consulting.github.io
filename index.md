@@ -46,6 +46,9 @@ We use pivotal tracker for scrum board ([http://www.pivotaltracker.com](http://w
 
 It is therefore crucial that you understand the tool (Pivotal) and how we use it.
 
+Here's a quick 8-minute intro to pivotal and the way we use it:
+<video src="https://d2ddoduugvun08.cloudfront.net/items/0q0l3r0t433f3w230g0v/Screen%20Recording%202019-04-02%20at%2002.33%20PM.mov" controls style="display: block;height: auto;width: 100%;">Pivotal introduction</video>
+
 ### Different roles, different tasks, different responsibilities
 
 Here's the roles we have on our teams:
